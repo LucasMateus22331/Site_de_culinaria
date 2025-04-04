@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast truck Página Inicial</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="container">
+            <img src="assets/truck.jpg"  width="100" height="100"  alt="logo"> <h1 class="logo">Fast Truck
+            </h1>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="salgados.html">Salgados</a></li>
+                <li><a href="doces.html">Doces</a></li>
+                <li><a href="sobremesa.html">Sobremesas </a></li>
+                <li><a href="fitness.html">Fitness </a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+ <!-- Carrossel Container: Um contêiner que segura o carrossel -->
+ <div class="carrossel-container">
+    
+    <!-- O Carrossel é um contêiner flexível que contém as imagens -->
+    <div class="carrossel">
+      
+      
+      <div class="slide">
+        
+        <a href="https://www.exemplo1.com" target="_blank">
+         
+          <img src="assets/Cardapio1.jpg" alt="Imagem 1">
+        </a>
+      </div>
+
+      <div class="slide">
+        <a href="https://www.exemplo2.com" target="_blank">
+          <img src="assets/cardapio2.jpeg" alt="Imagem 2">
+        </a>
+      </div>
+
+      <div class="slide">
+        <a href="https://www.exemplo3.com" target="_blank">
+          <img src="assets/cardapio3.jpeg" alt="Imagem 3">
+        </a>
+      
+      </div>
+    </div>
+    <h1 class="Inicial">Seja Bem-Vindo</h1>
+    
+    <!-- Botões de navegação para mover o carrossel -->
+    <button class="prev" onclick="moverCarrossel(-1)">&#10094;</button> <!-- Botão para mover para a imagem anterior -->
+    <button class="next" onclick="moverCarrossel(1)">&#10095;</button> <!-- Botão para mover para a próxima imagem -->
+
+  </div> <!-- Fim do carrossel-container -->
+
+  <!-- Link para o script JavaScript que controlará o carrossel -->
+  <script src="script.js"></script> 
+  
+
+</body>
+</html>

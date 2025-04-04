@@ -1,0 +1,233 @@
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Garante que o padding e a borda não afetem a largura e altura do elemento */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Define a fonte padrão para o corpo do texto */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas de texto para melhorar a legibilidade */
+    background-color: #f8f8f8; /* Cor de fundo clara para o corpo da página */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Estilo do Header */
+header {
+    background-color: #fd8726f1; /* Cor de fundo escura para o cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho (branco) */
+    padding: 20px 0; /* Espaçamento acima e abaixo do cabeçalho */
+}
+
+nav .container {
+    display: flex; /* Usando flexbox para organizar os itens horizontalmente */
+    justify-content: space-between; /* Espaça os itens (logo e menu) igualmente de um lado ao outro */
+    align-items: center; /* Alinha verticalmente os itens do cabeçalho */
+    max-width: 1200px; /* Limita a largura máxima da área do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo dentro da tela */
+    padding: 0 20px; /* Adiciona preenchimento lateral */
+}
+nav .logo {
+    font-size: 2rem; /* Define o tamanho da fonte do logo */
+    font-weight: 600; /* Aumenta o peso da fonte (deixa mais espesso) */
+    letter-spacing: 2px; /* Adiciona um pouco de espaçamento entre as letras */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Organiza os itens da lista horizontalmente */
+}
+
+nav ul li {
+    margin-left: 30px; /* Espaço entre os itens do menu */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #fff; /* Cor dos links (branca) */
+    font-weight: 600; /* Aumenta o peso da fonte para os links */
+    transition: color 0.3s; /* Adiciona um efeito de transição suave ao mudar a cor */
+}
+
+nav ul li a:hover {
+    color: #00c3ff; /* Muda a cor dos links para um tom azul bb quando o usuário passa o mouse */
+
+}
+
+/* Estilo do Conteúdo Principal */
+main {
+    padding: 40px 0; /* Adiciona espaçamento acima e abaixo do conteúdo principal */
+}
+
+/* parte de cima logo e os carai ai*/
+
+/* Seção de Receita */
+.recipe-section {
+    background-color: #fff; /* Cor de fundo branca para cada seção de receita */
+    margin-bottom: 40px; /* Espaço entre as seções */
+    border-radius: 8px; /* Borda arredondada para as seções */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao redor da seção */
+    padding: 40px; /* Preenchimento interno para dar espaço ao conteúdo */
+}
+
+/* Container para Alinhar o Conteúdo */
+
+
+.container {
+    display: flex; /* Usando flexbox para organizar o conteúdo em duas colunas (imagem e texto) */
+    flex-wrap: wrap; /* Permite que o conteúdo quebre em várias linhas em telas menores */
+    justify-content: space-between; /* Espaça o conteúdo igualmente */
+    max-width: 1200px; /* Limita a largura máxima */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 0 20px; /* Adiciona preenchimento lateral */
+}
+
+/* Estilos para o Texto da Receita */
+
+
+.re-info {
+    flex: 1; /* Faz com que o bloco de texto ocupe 50% do espaço disponível */
+    max-width: 50%; /* Limita a largura máxima a 50% */
+    padding-right: 20px; /* Espaço à direita entre o texto e a imagem */
+}
+
+.re-info h2 {
+    font-size: 2.5rem; /* Tamanho grande para o título principal */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    color: #333; /* Cor do título */
+}
+
+.re-info p {
+    font-size: 1rem; /* Tamanho padrão para parágrafos */
+    color: #666; /* Cor do texto dos parágrafos (mais clara que o título) */
+    margin-bottom: 20px; /* Espaço abaixo dos parágrafos */
+}
+.re-info h3 {
+    font-size: 1.2rem; /* Tamanho de título menor para subtítulos (Ingredientes e Modo de Preparo) */
+    margin-top: 20px; /* Espaço acima do subtítulo */
+    margin-bottom: 10px; /* Espaço abaixo do subtítulo */
+    font-weight: 600; /* Deixa o subtítulo mais espesso */
+}
+
+re-info ul {
+    margin-bottom: 20px; /* Espaço abaixo da lista */
+}
+
+.re-info ul li {
+    margin-left: 20px; /* Espaço à esquerda de cada item da lista */
+    font-size: 1rem; /* Tamanho da fonte da lista */
+    color: #555; /* Cor do texto da lista */
+}
+
+
+/* Estilo para a Imagem da Receita */
+
+
+.re-image {
+    flex: 1; /* Faz com que a imagem ocupe a outra metade do espaço disponível */
+    max-width: 40%; /* Limita a largura máxima da imagem */
+    text-align: center; /* Alinha a imagem ao centro */
+}
+
+.re-image img {
+    max-width: 100%; /* Faz com que a imagem ocupe 100% da largura disponível */
+    border-radius: 8px; /* Borda arredondada nas imagens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para as imagens */
+}
+
+
+/* Estilo do Footer */
+
+               /*O O FOOTER NAO ESTA ALINHADO(CONFIGURADO) RESOLVI NAO FAZER*/
+
+footer { /*marca a area especifica, conhecida como rodapé, do conteúdo geral do documento*/
+    background-color: #fd8726f1; /* Cor de fundo escura para o rodapé */
+    color: #000000; /* Cor do texto no rodapé (branco) */
+    padding: 20px 0; /* Espaçamento acima e abaixo do rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    font-size: 0.9rem; /* Tamanho de fonte um pouco menor no rodapé */
+    
+}
+
+/* Responsividade: Ajuste para telas menores */
+
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Organiza os elementos verticalmente (imagem e texto abaixo) */
+    }
+
+    .re-info, .re-image {
+        max-width: 100%; /* Aumenta a largura dos elementos para 100% em telas menores */
+        padding-right: 0; /* Remove o preenchimento à direita */
+    }
+}
+
+
+/* Contêiner principal do carrossel, com um tamanho fixo e ocultando o excesso */
+.carrossel-container {
+    position: relative; /* Para posicionar os botões de navegação corretamente */
+    width: 80%; /* O carrossel vai ocupar 80% da largura da tela */
+    margin: 0 auto; /* Centraliza o carrossel na página */
+    overflow: hidden; /* Oculta as imagens que estão fora da área visível */
+}
+
+/* Contêiner flexível que armazena todas as imagens (slides) */
+.carrossel {
+    display: flex; /* Torna os slides em linha */
+    transition: transform 0.5s ease; /* Adiciona uma animação suave ao mover os slides */
+}
+
+/* Cada slide é uma imagem que ocupa 100% da largura do carrossel */
+.slide {
+    min-width: 100%; /* Faz com que cada slide ocupe toda a largura do contêiner */
+    transition: opacity 0.5s ease; /* Suaviza a transição da opacidade */
+}
+
+/* Faz a imagem preencher completamente o espaço do slide */
+.slide img {
+    width: 100%; /* Imagem ocupa 100% da largura do slide */
+    height: auto; /* A altura é ajustada automaticamente para manter a proporção */
+    display: block; /* Remove qualquer espaço extra abaixo da imagem */
+}
+
+/* Estilo dos botões de navegação */
+button {
+    position: absolute; /* Posiciona os botões acima do carrossel */
+    top: 50%; /* Coloca os botões no meio verticalmente */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    color: white; /* Cor do texto (ícone) do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px; /* Espaçamento dentro do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    font-size: 24px; /* Tamanho da fonte do ícone do botão */
+    transform: translateY(-50%); /* Ajusta os botões para que fiquem centralizados */
+}
+
+/* Botão de navegação para a esquerda  */
+button.prev {
+    left: 0; /* Posiciona à esquerda */
+}
+
+/* Botão de navegação para a direita  */
+button.next {
+    right: 0; /* Posiciona à direita */
+}
+
+/* Estilo ao passar o mouse sobre os botões */
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Escurece o fundo quando o mouse passa por cima */
+}
+
+  /* texto bem vindo  da tela inicial*/
+.Inicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+
+
+
+
+}
+
