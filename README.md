@@ -42,7 +42,7 @@ Certifique-se de ter a pasta assets com as imagens referenciadas nos arquivos HT
 
 Abra o arquivo index.html em qualquer navegador moderno.
 
-(projeto escolar)
+PROJETO DESENVOLVIDO PARA MELHORIA DE html E css, js
 
 📌 Créditos
 As receitas apresentadas neste projeto foram extraídas da plataforma Tudo Gostoso.
