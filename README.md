@@ -48,3 +48,6 @@ PROJETO DESENVOLVIDO PARA MELHORIA DE html E css, js
 As receitas apresentadas neste projeto foram extraídas da plataforma Tudo Gostoso.
 
 Desenvolvido para amantes da culinária. 🚚💨
+
+projeto acabemido, baseado no tudo gostoso
+
