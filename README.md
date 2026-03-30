@@ -1,55 +1,71 @@
-Fast Truck - Uma Mistura de Gostosuras
-O Fast Truck é um site de receitas gastronômicas organizado por categorias, apresentando desde opções clássicas de salgados e doces até receitas voltadas para o público fitness. O projeto foi desenvolvido com foco em uma interface limpa, responsiva e de fácil navegação.
+🍽️ CookMaster - Receitas Inteligentes para o Dia a Dia
+
+O CookMaster é uma plataforma web de receitas desenvolvida para facilitar a vida de quem quer cozinhar de forma prática, rápida e organizada. O projeto reúne receitas simples, dicas culinárias e sugestões personalizadas, com foco em usabilidade e experiência do usuário.
 
 🚀 Funcionalidades
-Página Inicial Interativa: Contém um carrossel de imagens dinâmico para destacar promoções ou pratos principais.
 
-Categorização de Receitas: Navegação estruturada em:
+🔎 Busca Inteligente
+Permite pesquisar receitas pelo nome ou ingrediente (ex: “frango”, “chocolate”).
 
-Salgados
+📂 Filtro por Categorias
+Receitas organizadas em:
 
-Doces
-
+Café da Manhã
+Almoço
+Jantar
 Sobremesas
+Low Carb
 
-Fitness
+⭐ Sistema de Favoritos
+Usuário pode marcar receitas como favoritas para acessar rapidamente depois.
 
-Layout Responsivo: O site se adapta a diferentes tamanhos de tela (desktop e mobile) utilizando Media Queries.
+📱 Design Responsivo
+Interface adaptada para celular, tablet e desktop.
 
-Autoplay no Carrossel: Transição automática de imagens a cada 3 segundos.
+🎯 Sugestões do Dia
+Exibe receitas aleatórias automaticamente na página inicial.
 
 🛠️ Tecnologias Utilizadas
-HTML5: Estruturação semântica de todas as páginas de receitas.
-
-CSS3: Estilização personalizada, layout Flexbox para alinhamento e design responsivo.
-
-JavaScript (Vanilla): Lógica para o funcionamento do carrossel de imagens e navegação.
-
+HTML5 → Estrutura semântica das páginas
+CSS3 → Estilização moderna com Flexbox e Grid
+JavaScript (Vanilla) →
+Sistema de busca
+Favoritos (usando LocalStorage)
+Sugestões automáticas
 📁 Estrutura do Projeto
-Plaintext
-├── assets/             # Imagens dos pratos e logo (ex: polvilho.jpg, truck.jpg)
-├── index.html          # Página principal com o carrossel
-├── salgados.html       # Receitas de salgados (Coxinha, Pão de batata)
-├── doces.html          # Receitas de doces (Biscoito de polvilho, Doce de abóbora)
-├── sobremesa.html      # Receitas de sobremesas (Chocolate de colher, Morango)
-├── fitness.html        # Receitas saudáveis (Panqueca de aveia, Bolo de banana)
-├── styles.css          # Folha de estilo centralizada
-└── script.js           # Lógica do carrossel de imagens
-📖 Como visualizar
-Clone este repositório para sua máquina local.
+├── assets/              # Imagens e ícones
+├── index.html           # Página inicial com sugestões
+├── receitas.html        # Listagem de receitas
+├── detalhes.html        # Página individual da receita
+├── favoritos.html       # Receitas salvas pelo usuário
+├── styles.css           # Estilos globais
+├── script.js            # Lógica principal
+└── data.js              # Base de dados simulada (receitas)
+📖 Como Executar
+Clone o repositório:
+git clone <url-do-repositorio>
+Acesse a pasta do projeto
+Abra o arquivo:
+index.html
+Pronto! 🚀
+💡 Diferenciais do Projeto
+Interface limpa e intuitiva
+Funcionalidade real de favoritos (LocalStorage)
+Sistema de busca funcional
+Código organizado e fácil de entender
+Ideal para portfólio de front-end
+📌 Objetivo
 
-Certifique-se de ter a pasta assets com as imagens referenciadas nos arquivos HTML.
+Projeto desenvolvido com foco em evolução nas seguintes habilidades:
 
-Abra o arquivo index.html em qualquer navegador moderno.
-
-PROJETO DESENVOLVIDO PARA MELHORIA DE html E css, js
-
+Estruturação HTML semântica
+Responsividade com CSS
+Manipulação de DOM com JavaScript
+Organização de projetos front-end
 📌 Créditos
-As receitas apresentadas neste projeto foram extraídas da plataforma Tudo Gostoso.
 
-Desenvolvido para amantes da culinária. 🚚💨
+Receitas baseadas em inspirações Do [TUDOGOSTOSO](https://www.tudogostoso.com.br/).
 
-projeto acabemido, baseado no tudo gostoso
+👨‍💻 Autor
 
-Primeira tela de script
-
+Desenvolvido para prática e evolução em desenvolvimento web 🚀
