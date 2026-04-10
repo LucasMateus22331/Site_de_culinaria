@@ -1,71 +1,83 @@
-🍽️ CookMaster - Receitas Inteligentes para o Dia a Dia
+🍳 FlavorFlow - Seu Guia de Receitas Inteligente
 
-O CookMaster é uma plataforma web de receitas desenvolvida para facilitar a vida de quem quer cozinhar de forma prática, rápida e organizada. O projeto reúne receitas simples, dicas culinárias e sugestões personalizadas, com foco em usabilidade e experiência do usuário.
+O FlavorFlow é uma aplicação web criada para transformar o jeito de cozinhar no dia a dia. Com uma interface simples e moderna, o sistema ajuda usuários a encontrar receitas rapidamente, organizar pratos favoritos e descobrir novas ideias culinárias de forma prática.
 
-🚀 Funcionalidades
+🚀 Principais Recursos
+🔍 Pesquisa Dinâmica
 
-🔎 Busca Inteligente
-Permite pesquisar receitas pelo nome ou ingrediente (ex: “frango”, “chocolate”).
+Busque receitas facilmente digitando o nome ou ingredientes específicos como “carne”, “ovo” ou “queijo”.
 
-📂 Filtro por Categorias
-Receitas organizadas em:
+🗂️ Organização por Categorias
 
-Café da Manhã
-Almoço
-Jantar
-Sobremesas
-Low Carb
+As receitas são separadas para facilitar a navegação:
 
-⭐ Sistema de Favoritos
-Usuário pode marcar receitas como favoritas para acessar rapidamente depois.
+☕ Café da manhã
+🍛 Almoço
+🍽️ Jantar
+🍰 Sobremesas
+🥗 Low Carb
+❤️ Lista de Favoritos
 
-📱 Design Responsivo
-Interface adaptada para celular, tablet e desktop.
+Salve suas receitas preferidas e acesse quando quiser.
+Os dados ficam armazenados no navegador com LocalStorage.
 
-🎯 Sugestões do Dia
-Exibe receitas aleatórias automaticamente na página inicial.
+📱 Layout Responsivo
 
-🛠️ Tecnologias Utilizadas
-HTML5 → Estrutura semântica das páginas
-CSS3 → Estilização moderna com Flexbox e Grid
+Compatível com diferentes dispositivos:
+
+Desktop 💻
+Tablet 📱
+Smartphone 📲
+🎲 Sugestões Automáticas
+
+Receitas aleatórias são exibidas na página inicial para inspirar suas próximas refeições.
+
+🛠️ Tecnologias Aplicadas
+HTML5 → Estrutura e semântica
+CSS3 → Layout moderno com Flexbox e Grid
 JavaScript (Vanilla) →
 Sistema de busca
-Favoritos (usando LocalStorage)
+Gerenciamento de favoritos
+Manipulação de dados
 Sugestões automáticas
 📁 Estrutura do Projeto
-├── assets/              # Imagens e ícones
-├── index.html           # Página inicial com sugestões
-├── receitas.html        # Listagem de receitas
-├── detalhes.html        # Página individual da receita
-├── favoritos.html       # Receitas salvas pelo usuário
-├── styles.css           # Estilos globais
-├── script.js            # Lógica principal
-└── data.js              # Base de dados simulada (receitas)
-📖 Como Executar
+📦 flavorflow
+├── assets/            # Imagens e recursos visuais
+├── index.html         # Página inicial (sugestões)
+├── receitas.html      # Listagem geral
+├── detalhes.html      # Detalhes da receita
+├── favoritos.html     # Receitas salvas
+├── styles.css         # Estilização
+├── script.js          # Funcionalidades
+└── data.js            # Dados simulados
+▶️ Como Rodar o Projeto
 Clone o repositório:
-git clone <url-do-repositorio>
-Acesse a pasta do projeto
+git clone <seu-repositorio>
+Acesse a pasta:
+cd flavorflow
 Abra o arquivo:
 index.html
-Pronto! 🚀
-💡 Diferenciais do Projeto
-Interface limpa e intuitiva
-Funcionalidade real de favoritos (LocalStorage)
-Sistema de busca funcional
-Código organizado e fácil de entender
-Ideal para portfólio de front-end
-📌 Objetivo
 
-Projeto desenvolvido com foco em evolução nas seguintes habilidades:
+✔️ Pronto! O projeto estará funcionando no seu navegador.
 
-Estruturação HTML semântica
-Responsividade com CSS
+💡 Destaques do Projeto
+Interface amigável e intuitiva
+Funcionalidades reais usando LocalStorage
+Código limpo e bem organizado
+Navegação simples e eficiente
+Ótimo para portfólio front-end
+🎯 Objetivo
+
+Este projeto foi desenvolvido com foco em aprimorar:
+
+Estruturação com HTML semântico
+Criação de layouts responsivos
 Manipulação de DOM com JavaScript
-Organização de projetos front-end
-📌 Créditos
+Organização de código front-end
+📌 Observações
 
-Receitas baseadas em inspirações Do [TUDOGOSTOSO](https://www.tudogostoso.com.br/).
+As receitas utilizadas são baseadas em inspirações de plataformas como o TudoGostoso, sendo usadas apenas para fins educacionais.
 
 👨‍💻 Autor
 
-Desenvolvido para prática e evolução em desenvolvimento web 🚀
+Projeto desenvolvido com o objetivo de evoluir habilidades em desenvolvimento web e construção de interfaces modernas 🚀
